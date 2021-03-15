@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<meta charset="utf-8">
+		<title>天涯明月刀-仙人扶我顶，结发授长生</title>
+		<link rel="stylesheet" type="text/css" href="01.css">
+		<link rel="stylesheet" href="门派切换.css">
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			#topvideo video::-webkit-media-controls-enclosure{ 
+				display: none;
+			} /*这里是为了关闭音频的控件*/
+			
+			#轻功 video::-webkit-media-controls-enclosure{
+				display: none;
+			}
+			
+			body{
+				margin: 0 auto;
+				background: lightgray;
+				}
+				
+			body::-webkit-scrollbar{
+				display: none;
+			} /* 隐藏滚动条 */
+			
+			#title2{
+				font-size: 0;
+				letter-spacing: -1px;
+				word-spacing: -1px;
+			}
+				
+			#title{
+				height: 58px;
+				background-color: #000000;
+				width: 186px;
+				vertical-align: middle;
+				padding-left: 5px;
+				display: inline-block;
+				letter-spacing: normal;
+				word-spacing: normal;
+			}
+			
+			#title1{
+				vertical-align: middle;
+				display: inline-block;
+				letter-spacing: normal;
+				word-spacing: normal;
+			}
+				
+			nav ul{
+				list-style-type: none;
+				float:right;
+			}
+					   
+			ul li{
+				list-style:none;
+				float:left;
+			}
+						   
+			li a{
+				font-family: STxingkai;
+				letter-spacing: 10px;	
+				font-size: 40px;
+				font-weight: 10;
+			}
+					   
+			li a:link,a:visited{
+				display:block;
+				font-weight:100;
+				color:white;
+				background-color:black;
+				width:274.28571428571px;
+				text-align:center;
+				padding:7px;
+				text-decoration:none;
+			}
+					   
+			li a:hover, a:active{ 
+				background-color: rgb(85, 85, 127);
+			}
+			#topimg{
+				width:100px;
+				height:100px;
+				position:absolute;
+				top:260px;
+				left:320px;
+				}
+				#topvideo{
+					font-size: 0;
+				}
+			
+			main p{
+				text-align: center;
+				font-size: 50px;
+			}
+			#江湖{
+				height: 1080px;
+				width: 1920px;
+				background-image: url(1.jpg);
+				text-align: center;
+			}
+				
+			#门派{
+				height: 2160px;
+				width: 1920px;
+				background-image: url(1.jpg);
+			}
+			i {
+			    font-style: normal;
+			}
+
+			 h2 {
+			    margin: 0 0 50px;
+			    font-size: 40px;
+			    line-height: 110%;
+				text-align: center;
+				padding-top: 100px;
+			}
+			
+			 h2 .eng {
+			    display: block;
+			    font-size: 20px;
+			    font-weight: normal;
+			    font-family: tahoma, helvetica, arial, sans-serif;
+			    line-height: 100%;
+			
+			}
+
+			.clk .eng {
+			    margin: -26px 0 0;
+			    font-size: 9px;
+			    color: #000;
+			    opacity: .15;
+			    line-height: 100%;
+			    *filter: alpha(opacity=15);
+			    -webkit-transform-origin: 50% 0;
+			    -webkit-transform: scale(.7);
+			}
+			 .eng {
+			    display: none;
+			}
+			
+			 h2 {
+			    color: #fff;
+			}
+			
+			 h2 .eng {
+			    color: #363839;
+			}
+			
+			 h2 .spc-color {
+			    color: #cfae69;
+			}
+			#轻功 {
+				padding-top: 940px;
+				text-align: center;
+			}
+			
+			#背景{
+				height: 800px;
+				width: 1920px;
+				background-image: url(背景2.jpg);
+				text-align: center;
+				padding-top: 50px;
+			}
+			
+			#二维码{
+				padding-top: 100px;
+				padding-left: 10px;
+				 width:100px;
+				 height:100px;
+				 transform: scale(1);
+				 transition: transform 1s ease 0s;
+				 display: inline-block;
+				}
+				 
+			#二维码:hover {
+				  transform: scale(1.1);
+				 transition: 1s;
+				  box-shadow: 0 5px 30px -10px antiquewhite ;
+				  cursor: pointer;
+				} 
+					 
+			#二维码1{
+				padding-top: 100px;
+				padding-left: 100px;
+				 width:100px;
+				 height:100px;
+				 transform: scale(1);
+				 transition: transform 1s ease 0s;
+				 display: inline-block;
+				}
+				 
+			#二维码1:hover {
+				  transform: scale(1.1);
+				 transition: 1s;
+				  box-shadow: 0 5px 30px -10px antiquewhite ;
+				  cursor: pointer;
+				}
+			#pc下载{
+				display: inline-block;
+				padding-left: 100px;
+			}
+			
+			#背景 p{
+				font-family: STXihei;
+			}
+			
+			#论剑专场{
+				padding-top: 20px;
+				transform: scale(1);
+				transition: transform 1s ease 0s;
+			}
+			
+			#论剑专场:hover {
+				  transform: scale(1.1);
+				 transition: 1s;
+				  box-shadow: 0 5px 30px -10px antiquewhite ;
+				  cursor: pointer;
+				}
+			
+			
+						footer {
+				height: 180px;
+				width: 1920px;
+				background: #000000;
+				padding-left:20px;
+				padding-top: 30px;
+				vertical-align: middle;
+				clear:both;
+			}
+			
+			
+			#footer p{
+				color:white;
+				text-align: right;
+				padding-right: 80px;
+				font-size: 12px ;
+			}
+			
+			
+			
+		</style>
+		
+	</head>
+	
+	<body>
+		<header>
+				<div id="title2">
+					<div id="title">
+						<a href="天刀logo.html" target="_blank"><img src="logo.png"> </a>
+					    
+					</div>
+					<div id="title1">
+						<nav>
+					        <ul class="nav">
+					            <li><a href="#">游戏资料</a></li>
+					            <li><a href="#">商城合作</a></li>
+					            <li><a href="#">剑荡八荒</a></li>
+					            <li><a href="#">江湖快报</a></li>
+					            <li><a href="#">官方论坛</a></li>
+					            <li><a href="#">下载游戏</a></li>
+					       </ul>
+						</nav> 
+					</div>
+				</div>	    
+				</header>
+		<div>
+				<div id="topimg">
+					<img src="天上白玉京.png" >
+				</div>
+						<div id="topvideo">
+							<video src="topv.mp4"  width="1920px" height="1080px" autoplay controls loop muted>
+			</div>
+			
+			</video>
+		</div>
+		
+		
+	<main>
+		<div id="江湖">
+			<img src="国风.png" >
+		<div class="container">
+			<div class="box box1"></div>
+			<div class="box box2"></div>
+		</div>	
+		</div>
+		<div class="slidershow middle">
+	  <div class="slides">
+	    <input type="radio" name="r" id="r1" checked>
+	    <input type="radio" name="r" id="r2">
+	    <input type="radio" name="r" id="r3">
+	    <input type="radio" name="r" id="r4">
+	    <input type="radio" name="r" id="r5">
+		
+	  <div class="slide s1">
+	    <img src="太白.png" >
+	  </div>
+	  <div class="slide">
+	    <img src="神威.png" >
+	  </div>
+	  <div class="slide">
+	    <img src="唐门.png" >
+	  </div>
+	  <div class="slide">
+	    <img src="天香.png" >
+	  </div>
+	  <div class="slide">
+	    <img src="真武.png" >
+	  </div>
+	  
+	
+	  </div>
+	  <div class="navigation">
+	    <label for="r1" class="bar"></label>
+	    <label for="r2" class="bar"></label>
+	    <label for="r3" class="bar"></label>
+	    <label for="r4" class="bar"></label>
+	    <label for="r5" class="bar"></label>
+		
+	  </div>
+	</div>
+		
+	</main>
+	<div id="门派">
+		<h2><i class="eng">RECOMMENDED</i>八荒门派 <span class="spc-color">各有主张</span></h2>
+		<div id="轻功">
+			<div id="轻功1">
+				<img src="轻功.png" >
+			</div>
+			<video src="轻功.mp4" width="1600px" height="720px" autoplay controls loop muted>></video>
+		</div>
+	</div>
+	<div id="背景">
+		<div><img src="大侠.png" ></div>
+		<div id="二维码">
+			<img src="二维码.png" width="100px" height="100px">
+			<p>扫描二维码下载</p>
+		</div>
+		<div id="二维码1">
+			<img src="微信.png" width="100px" height="100px">
+			<p>扫描加入天刀大家族</p>
+		</div>
+		<div id="pc下载">
+			<a href="#" target="_blank"><img src="pc.png" ></a>
+		</div>
+		<div id="论剑专场">
+			<a href="天涯.html" target="_blank"><img src="本是.png" >
+		</div>
+	</div>
+	
+	<footer>
+		<div id="footer">
+			<span id="logobeiji">
+				<a href="https://ieg.tencent.com/" target="_blank"><img src="logobeiji.png"></a>
+			</span>
+			    <p> 
+			    腾讯公司版权所有
+				<br><br>
+			    COPYRIGHT &#169 1998 - 2020 TENCENT. ALL RIGHTS RESERVED.
+				<br><br>
+			    深圳市市场监督管理局企业主体身份公示工商网监电子标识 
+				<br><br>|粤网文[2020]3396-195号|（署）网出证（粤）字第054号
+			    批准文号：国新出审[2020]509 号|出版物号：ISBN 978-7-498-07453-9|
+				</p>
+		</div>
+	</footer>
+	</body>	
+</html>

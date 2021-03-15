@@ -1,0 +1,174 @@
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>音乐播放页面</title>
+
+    <style type="text/css">
+
+       *{
+
+           margin: 0;
+
+           padding: 0;
+
+           list-style: none;
+
+       }
+
+       #box-video{
+
+           width: 100%;
+
+           height: 100%;
+
+           position: absolute;
+
+           overflow: hidden;
+
+       }
+
+       #box-video video{
+
+           min-width: 100%;
+
+           min-height: 100%;
+
+           max-height: 4000%;
+
+           max-width: 4000%;
+
+           position: absolute;
+
+           top:50%;
+
+           left: 50%;
+
+           transform: translate(-50%,-50%);
+
+       }
+
+       .cd{
+
+           width: 422px;
+
+           height: 422px;
+
+           position: absolute;
+
+           top: 25%;
+
+           left: 10%;
+
+           z-index:2;
+
+           border-radius: 50%;
+
+           border: 10px solid palevioletred;
+
+           box-shadow: 5px 5px 15px #000;
+
+           background:url(te4.jpg) no-repeat;
+
+       }
+
+       .center{
+
+           width:100px;
+
+           height: 100px;
+
+           border-radius: 50%;
+
+           position: absolute;
+
+           top:38%;
+
+           left: 38%;
+
+           z-index: 3;
+
+           border: 5px solid paleturquoise;
+
+           background: #000
+          url(太白.png) no-repeat;
+
+       }
+
+       .歌曲{
+
+           position: absolute;
+
+           top:25%;
+
+           left: 50%;
+
+       }
+
+       h2{
+
+           font-family: STXingkai;
+
+           font-size: 110px;
+
+           color: cornflowerblue;
+
+       }
+
+       p{
+
+        width: 556px;
+
+        height: 300px;
+
+        font-family: STKaiti;
+		font-size: 20px;
+        padding-left: 30px;
+
+        line-height: 30px;
+
+        color: gold;
+
+        background: url(2.jpg) repeat-x;
+
+        opacity: 0.6;
+
+        box-sizing: border-box;
+
+       }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="box-video">
+
+       <video src="论剑.mp4"autoplay="autoplay" loop="loop"></video>
+
+       <div class="cd">
+
+           <div class="center"></div>
+
+       </div>
+
+       <div class="歌曲">
+
+         
+     <h2>天涯</h2>
+
+         
+    <p>山无棱 江水为竭<br/>冬雷震震夏雨雪<br/>天长路远 相隔无言 天涯一别<br/>长相思 思君未绝<br/>纷纷世间雪<br/>为君歌一曲 奈何天涯远<br/>江湖多缭乱<br/>望断斜阳望不见刀光欲裂<br/>暗如血
+一曲天涯 醉饮千山 沧海明月<br/>旧梦前尘须问剑</p>
+
+         
+ <audio src="天涯.mp3"  controls autoplay></audio>
+
+       </div>
+
+    </div>
+
+</body> 
+
+</html>

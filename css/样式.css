@@ -1,0 +1,59 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/背景2.png);	
+	background-repeat: no-repeat;	
+}
+
+#bigBox
+{
+	margin: 0 auto;	
+	margin-top: 200px; 
+	padding: 20px 50px;	
+	background-color: #00000090;	
+	width: 400px;
+	height: 300px;
+	border-radius: 10px;
+	text-align: center;	
+}
+
+#bigBox h1
+{
+	color: white;	
+}
+
+#bigBox .inputBox
+{
+	margin-top: 50px;	
+}
+
+#bigBox .inputBox .inputText
+{
+	margin-top: 20px;	
+}
+
+#bigBox .inputBox .inputText span
+{
+	color: white;	
+}
+
+#bigBox .inputBox .inputText input
+{
+	border: 0;	
+	padding: 10px 10px;	
+	border-bottom: 1px solid white;	
+	background-color: #00000000;	
+	color: white;	
+}
+
+#bigBox .loginButton
+{
+	margin-top: 30px;	
+	width: 150px;
+	height: 25px;
+	color: white;	
+	border: 0; 
+	border-radius: 20px;	
+	background-image: linear-gradient(to right, #55007f 0%, #550000 0%, #55557f 0%, #00007f 33%, #55557f 66%, #000000 100%);	
+}
